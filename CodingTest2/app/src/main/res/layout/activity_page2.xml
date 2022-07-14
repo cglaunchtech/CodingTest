@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/cardmargin"
+    tools:context=".Page2">
+
+    <TextView
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="@dimen/cardtitles"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginRight="@dimen/space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/lastname"
+        />
+    <TextView
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="@dimen/cardtitles"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginRight="@dimen/space"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/firstname"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:textSize="@dimen/cardtitles"
+        app:layout_constraintTop_toBottomOf="@id/firstname"
+        android:layout_marginTop="@dimen/margintop"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

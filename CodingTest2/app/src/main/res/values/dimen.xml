@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardtitles">16sp</dimen>
+    <dimen name="cardmargin">8dp</dimen>
+    <dimen name="space">2dp</dimen>
+    <dimen name="margintop">32dp</dimen>
+</resources>
